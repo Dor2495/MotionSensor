@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B45269122DE7082F00B1046C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45269112DE7082F00B1046C /* WidgetKit.framework */; };
+		B45269142DE7082F00B1046C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45269132DE7082F00B1046C /* SwiftUI.framework */; };
+		B452691F2DE7083000B1046C /* MotionDetectorLiveActivityExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B452690F2DE7082F00B1046C /* MotionDetectorLiveActivityExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B40F6A6D2DE5BB5200EB83AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B40F6A562DE5BB5100EB83AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B40F6A5D2DE5BB5100EB83AC;
+			remoteInfo = MotionSensor;
+		};
+		B40F6A772DE5BB5200EB83AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B40F6A562DE5BB5100EB83AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B40F6A5D2DE5BB5100EB83AC;
+			remoteInfo = MotionSensor;
+		};
+		B452691D2DE7083000B1046C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B40F6A562DE5BB5100EB83AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B452690E2DE7082F00B1046C;
+			remoteInfo = MotionDetectorLiveActivityExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B45268C52DE7065100B1046C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B452691F2DE7083000B1046C /* MotionDetectorLiveActivityExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B40F6A5E2DE5BB5100EB83AC /* MotionSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40F6A6C2DE5BB5200EB83AC /* MotionSensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionSensorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40F6A762DE5BB5200EB83AC /* MotionSensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionSensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B452690F2DE7082F00B1046C /* MotionDetectorLiveActivityExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MotionDetectorLiveActivityExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45269112DE7082F00B1046C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B45269132DE7082F00B1046C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B40F6A902DE5BD6100EB83AC /* Exceptions for "MotionSensor" folder in "MotionSensor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B40F6A5D2DE5BB5100EB83AC /* MotionSensor */;
+		};
+		B45269232DE7083000B1046C /* Exceptions for "MotionDetectorLiveActivity" folder in "MotionDetectorLiveActivityExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B452690E2DE7082F00B1046C /* MotionDetectorLiveActivityExtension */;
+		};
+		B452692E2DE70F0900B1046C /* Exceptions for "MotionDetectorLiveActivity" folder in "MotionSensor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MotionDetectorLiveActivityLiveActivity.swift,
+			);
+			target = B40F6A5D2DE5BB5100EB83AC /* MotionSensor */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B40F6A602DE5BB5100EB83AC /* MotionSensor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B40F6A902DE5BD6100EB83AC /* Exceptions for "MotionSensor" folder in "MotionSensor" target */,
+			);
+			path = MotionSensor;
+			sourceTree = "<group>";
+		};
+		B40F6A6F2DE5BB5200EB83AC /* MotionSensorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MotionSensorTests;
+			sourceTree = "<group>";
+		};
+		B40F6A792DE5BB5200EB83AC /* MotionSensorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MotionSensorUITests;
+			sourceTree = "<group>";
+		};
+		B45269152DE7082F00B1046C /* MotionDetectorLiveActivity */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B452692E2DE70F0900B1046C /* Exceptions for "MotionDetectorLiveActivity" folder in "MotionSensor" target */,
+				B45269232DE7083000B1046C /* Exceptions for "MotionDetectorLiveActivity" folder in "MotionDetectorLiveActivityExtension" target */,
+			);
+			path = MotionDetectorLiveActivity;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B40F6A5B2DE5BB5100EB83AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40F6A692DE5BB5200EB83AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40F6A732DE5BB5200EB83AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B452690C2DE7082F00B1046C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45269142DE7082F00B1046C /* SwiftUI.framework in Frameworks */,
+				B45269122DE7082F00B1046C /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B40F6A552DE5BB5100EB83AC = {
+			isa = PBXGroup;
+			children = (
+				B40F6A602DE5BB5100EB83AC /* MotionSensor */,
+				B40F6A6F2DE5BB5200EB83AC /* MotionSensorTests */,
+				B40F6A792DE5BB5200EB83AC /* MotionSensorUITests */,
+				B45269152DE7082F00B1046C /* MotionDetectorLiveActivity */,
+				B45269102DE7082F00B1046C /* Frameworks */,
+				B40F6A5F2DE5BB5100EB83AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B40F6A5F2DE5BB5100EB83AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B40F6A5E2DE5BB5100EB83AC /* MotionSensor.app */,
+				B40F6A6C2DE5BB5200EB83AC /* MotionSensorTests.xctest */,
+				B40F6A762DE5BB5200EB83AC /* MotionSensorUITests.xctest */,
+				B452690F2DE7082F00B1046C /* MotionDetectorLiveActivityExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B45269102DE7082F00B1046C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B45269112DE7082F00B1046C /* WidgetKit.framework */,
+				B45269132DE7082F00B1046C /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B40F6A5D2DE5BB5100EB83AC /* MotionSensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B40F6A802DE5BB5200EB83AC /* Build configuration list for PBXNativeTarget "MotionSensor" */;
+			buildPhases = (
+				B40F6A5A2DE5BB5100EB83AC /* Sources */,
+				B40F6A5B2DE5BB5100EB83AC /* Frameworks */,
+				B40F6A5C2DE5BB5100EB83AC /* Resources */,
+				B45268C52DE7065100B1046C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B452691E2DE7083000B1046C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B40F6A602DE5BB5100EB83AC /* MotionSensor */,
+			);
+			name = MotionSensor;
+			packageProductDependencies = (
+			);
+			productName = MotionSensor;
+			productReference = B40F6A5E2DE5BB5100EB83AC /* MotionSensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B40F6A6B2DE5BB5200EB83AC /* MotionSensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B40F6A832DE5BB5200EB83AC /* Build configuration list for PBXNativeTarget "MotionSensorTests" */;
+			buildPhases = (
+				B40F6A682DE5BB5200EB83AC /* Sources */,
+				B40F6A692DE5BB5200EB83AC /* Frameworks */,
+				B40F6A6A2DE5BB5200EB83AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B40F6A6E2DE5BB5200EB83AC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B40F6A6F2DE5BB5200EB83AC /* MotionSensorTests */,
+			);
+			name = MotionSensorTests;
+			packageProductDependencies = (
+			);
+			productName = MotionSensorTests;
+			productReference = B40F6A6C2DE5BB5200EB83AC /* MotionSensorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B40F6A752DE5BB5200EB83AC /* MotionSensorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B40F6A862DE5BB5200EB83AC /* Build configuration list for PBXNativeTarget "MotionSensorUITests" */;
+			buildPhases = (
+				B40F6A722DE5BB5200EB83AC /* Sources */,
+				B40F6A732DE5BB5200EB83AC /* Frameworks */,
+				B40F6A742DE5BB5200EB83AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B40F6A782DE5BB5200EB83AC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B40F6A792DE5BB5200EB83AC /* MotionSensorUITests */,
+			);
+			name = MotionSensorUITests;
+			packageProductDependencies = (
+			);
+			productName = MotionSensorUITests;
+			productReference = B40F6A762DE5BB5200EB83AC /* MotionSensorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B452690E2DE7082F00B1046C /* MotionDetectorLiveActivityExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B45269202DE7083000B1046C /* Build configuration list for PBXNativeTarget "MotionDetectorLiveActivityExtension" */;
+			buildPhases = (
+				B452690B2DE7082F00B1046C /* Sources */,
+				B452690C2DE7082F00B1046C /* Frameworks */,
+				B452690D2DE7082F00B1046C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B45269152DE7082F00B1046C /* MotionDetectorLiveActivity */,
+			);
+			name = MotionDetectorLiveActivityExtension;
+			packageProductDependencies = (
+			);
+			productName = MotionDetectorLiveActivityExtension;
+			productReference = B452690F2DE7082F00B1046C /* MotionDetectorLiveActivityExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B40F6A562DE5BB5100EB83AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					B40F6A5D2DE5BB5100EB83AC = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					B40F6A6B2DE5BB5200EB83AC = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = B40F6A5D2DE5BB5100EB83AC;
+					};
+					B40F6A752DE5BB5200EB83AC = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = B40F6A5D2DE5BB5100EB83AC;
+					};
+					B452690E2DE7082F00B1046C = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = B40F6A592DE5BB5100EB83AC /* Build configuration list for PBXProject "MotionSensor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B40F6A552DE5BB5100EB83AC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B40F6A5F2DE5BB5100EB83AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B40F6A5D2DE5BB5100EB83AC /* MotionSensor */,
+				B40F6A6B2DE5BB5200EB83AC /* MotionSensorTests */,
+				B40F6A752DE5BB5200EB83AC /* MotionSensorUITests */,
+				B452690E2DE7082F00B1046C /* MotionDetectorLiveActivityExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B40F6A5C2DE5BB5100EB83AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40F6A6A2DE5BB5200EB83AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40F6A742DE5BB5200EB83AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B452690D2DE7082F00B1046C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B40F6A5A2DE5BB5100EB83AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40F6A682DE5BB5200EB83AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40F6A722DE5BB5200EB83AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B452690B2DE7082F00B1046C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B40F6A6E2DE5BB5200EB83AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B40F6A5D2DE5BB5100EB83AC /* MotionSensor */;
+			targetProxy = B40F6A6D2DE5BB5200EB83AC /* PBXContainerItemProxy */;
+		};
+		B40F6A782DE5BB5200EB83AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B40F6A5D2DE5BB5100EB83AC /* MotionSensor */;
+			targetProxy = B40F6A772DE5BB5200EB83AC /* PBXContainerItemProxy */;
+		};
+		B452691E2DE7083000B1046C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B452690E2DE7082F00B1046C /* MotionDetectorLiveActivityExtension */;
+			targetProxy = B452691D2DE7083000B1046C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B40F6A7E2DE5BB5200EB83AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = R2LK952246;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B40F6A7F2DE5BB5200EB83AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = R2LK952246;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B40F6A812DE5BB5200EB83AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MotionSensor/MotionSensor.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2LK952246;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MotionSensor/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "allow device to serach and connect to devices nearby";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dordavid.MotionSensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		B40F6A822DE5BB5200EB83AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MotionSensor/MotionSensor.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2LK952246;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MotionSensor/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "allow device to serach and connect to devices nearby";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dordavid.MotionSensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+		B40F6A842DE5BB5200EB83AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2LK952246;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dordavid.MotionSensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotionSensor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MotionSensor";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		B40F6A852DE5BB5200EB83AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2LK952246;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dordavid.MotionSensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotionSensor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MotionSensor";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+		B40F6A872DE5BB5200EB83AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2LK952246;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dordavid.MotionSensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = MotionSensor;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		B40F6A882DE5BB5200EB83AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2LK952246;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dordavid.MotionSensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = MotionSensor;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+		B45269212DE7083000B1046C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2LK952246;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MotionDetectorLiveActivity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MotionDetectorLiveActivity;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dordavid.MotionSensor.MotionDetectorLiveActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B45269222DE7083000B1046C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R2LK952246;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MotionDetectorLiveActivity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MotionDetectorLiveActivity;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dordavid.MotionSensor.MotionDetectorLiveActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B40F6A592DE5BB5100EB83AC /* Build configuration list for PBXProject "MotionSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40F6A7E2DE5BB5200EB83AC /* Debug */,
+				B40F6A7F2DE5BB5200EB83AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B40F6A802DE5BB5200EB83AC /* Build configuration list for PBXNativeTarget "MotionSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40F6A812DE5BB5200EB83AC /* Debug */,
+				B40F6A822DE5BB5200EB83AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B40F6A832DE5BB5200EB83AC /* Build configuration list for PBXNativeTarget "MotionSensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40F6A842DE5BB5200EB83AC /* Debug */,
+				B40F6A852DE5BB5200EB83AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B40F6A862DE5BB5200EB83AC /* Build configuration list for PBXNativeTarget "MotionSensorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40F6A872DE5BB5200EB83AC /* Debug */,
+				B40F6A882DE5BB5200EB83AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B45269202DE7083000B1046C /* Build configuration list for PBXNativeTarget "MotionDetectorLiveActivityExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45269212DE7083000B1046C /* Debug */,
+				B45269222DE7083000B1046C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B40F6A562DE5BB5100EB83AC /* Project object */;
+}
